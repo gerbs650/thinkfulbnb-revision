@@ -2,8 +2,7 @@
 
 body {
   font-family: "Lato", sans-serif;
-  display: flex;
-  flex-direction: column;
+  
 }
 
 h2 {
@@ -59,22 +58,20 @@ header {
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
   text-align: center;
-  margin-bottom: 10px;
+  
 }
 
 header nav {
   display: flex;
   justify-content: center;
-  min-width: 0;
+ 
 }
 
 header nav ul {
   display: flex;
-}
-
-header nav ul li {
   list-style-type: none;
 }
+
 
 header nav ul li a {
   color: #fff;
@@ -109,6 +106,8 @@ form input {
   margin-bottom: 20px;
   width: 180px;
 }
+
+
 
 form button {
   background-color: #ff385c;
@@ -145,11 +144,26 @@ footer p {
 
   .group {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+  }
+
+  .item {
+    flex: 1;
+    margin: 10px;
   }
 
   #ideas .group {
     flex-flow: row wrap;
+  }
+
+  .item-double {
+    flex: 2;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 40px;
+    font-size: larger;
+    
   }
   
   /* -------  Header ------- */
@@ -201,7 +215,8 @@ footer p {
 
   #about .group {
     display: flex;
-    align-items: center;
+    align-items: row;
+    width: 100%
   }
 
   /* ------- Host ------- */ 
@@ -210,5 +225,7 @@ footer p {
     display: flex;
     align-items: center;
   }
+
+ 
 
 }
