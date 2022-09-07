@@ -29,11 +29,12 @@ section {
 section.alternate-background {
   background-color: #00a699;
   color: #fff;
+  justify-content: center;
 }
 
 main img {
   width: 100%;
-  margin: 10px 0;
+  
 }
 
 /* ---  Groups & Items --- */
@@ -44,7 +45,7 @@ main img {
 }
 
 .item {
-  flex: 1;
+  flex: 1 ;
   margin: 10px;
 }
 
@@ -58,6 +59,7 @@ header {
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
   text-align: center;
+  width:100%;
   
 }
 
@@ -86,7 +88,7 @@ header nav ul li a:hover {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 60px;
   color: #fff;
 }
 
@@ -95,6 +97,7 @@ header nav ul li a:hover {
 form {
   border: 2px solid #ff385c;
   padding: 16px;
+
 }
 
 form label {
@@ -104,7 +107,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 150px;
 }
 
 
@@ -150,6 +153,7 @@ footer p {
   .item {
     flex: 1;
     margin: 10px;
+    width: 80px;  
   }
 
   #ideas .group {
@@ -162,7 +166,7 @@ footer p {
     margin-bottom: auto;
     margin-left: 10px;
     margin-right: 40px;
-    font-size: larger;
+    font-size: medium;
     
   }
   
@@ -174,8 +178,12 @@ footer p {
   }
 
   .logo {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin: 14px 0px;
+    color: #fff;
+    font-family: "Pangolin", cursive;
+    padding-top: 0;
+    justify-content: center;
   }
 
   header nav ul {
@@ -186,7 +194,7 @@ footer p {
 
   form {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
   }
 
